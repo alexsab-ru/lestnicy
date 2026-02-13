@@ -59,10 +59,8 @@ strong{
 	@apply font-semibold;
 }
 
-.section:not(:last-child){
-	@apply py-10 md:py-20;
-}
 .section{
+	@apply py-10 md:py-20;
 	h2{
 		font-size: calc($index * 2.1);
 		text-align: center;
@@ -72,6 +70,9 @@ strong{
 		font-weight: normal;
 		text-align: center;
 		font-size: calc($index * 1);
+	}
+	&.contacts{
+		@apply pb-0;
 	}
 }
 
