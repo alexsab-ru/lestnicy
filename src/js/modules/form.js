@@ -53,8 +53,7 @@ document.querySelectorAll("form").forEach(function(form) {
 		for (const pair of formData) {
 			params.append(pair[0], pair[1]);
 		}
-		// fetch('https://diywebdev.ru/lead/dev/', {
-		fetch('https://alexsab.ru/lead/lestnicy/', {
+		fetch('https://l.alexsab.ru/lead/lestnicy/', {
 			method: 'POST',
 			mode: 'cors',
 			cache: 'no-cache',
